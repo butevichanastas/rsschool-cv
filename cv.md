@@ -43,6 +43,6 @@ elif over_speed >= 80:
 ## Work experience
 Not yet...
 ## Education
-Academy of Public Administration under the President of the Republic of Belarus.
+Academy of Public Administration under the President of the Republic of Belarus
 ## English
-Elementary. Studying on the Lingualeo platform.
+Elementary. Studying on the Lingualeo platform
