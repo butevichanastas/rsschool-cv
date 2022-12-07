@@ -1,9 +1,9 @@
 # Anastasiya Butevich
 ## Contacts
-* **Location:** Minsk, Belarus
-* **Phone:** +375 29 350-86-56
-* **Email:** butevichanastas@gmail.com
-* **GitHub:** butevichanastas
+* **Location:** *Minsk, Belarus*
+* **Phone:** *+375 29 350-86-56*
+* **Email:** *butevichanastas@gmail.com*
+* **GitHub:** *butevichanastas*
 ## About Me
 I'm 32 years. I don't know what I want to be when I grow up.
 I decided to try Front-end development. Suddenly it will...
