@@ -1,12 +1,27 @@
 body {
     font: normal Verdana, Helvetica, Arial, sans-serif;
 }
-main {
-    background-color: #F5F5F5;
-}
 header {
     background-color: #9ACD32;
 }
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+header ul li {
+    margin: 10px 50px 10px 50px;
+}
+header ul li a {color: black;}
+main {
+    background-color: #F5F5F5;
+}
 footer {
     background-color: #3D550C;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+footer a {
+    display: flex;
+    color: black;
 }
