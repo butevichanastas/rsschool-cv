@@ -1,3 +1,12 @@
 body {
-    font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+    font: normal Verdana, Helvetica, Arial, sans-serif;
+}
+main {
+    background-color: #F5F5F5;
+}
+header {
+    background-color: #9ACD32;
+}
+footer {
+    background-color: #3D550C;
 }
