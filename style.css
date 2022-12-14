@@ -7,21 +7,30 @@ header {
 header ul {
     display: flex;
     list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 header ul li {
-    margin: 10px 50px 10px 50px;
+    padding: 10px 50px;
 }
-header ul li a {color: black;}
+header ul li a {
+    color: black;
+}
 main {
+    padding: 20px;
     background-color: #F5F5F5;
 }
 footer {
-    background-color: #3D550C;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
+    background-color: #3D550C;
 }
 footer a {
     display: flex;
     color: black;
+}
+.gitHub-link {
+    display: flex;
+    align-items: center;
 }
