@@ -1,34 +1,51 @@
 body {
     font: normal Verdana, Helvetica, Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 header {
-    background-color: #9ACD32;
+    padding: 10px 20px;
+    background-color: #9ACD32;   
 }
 header ul {
     display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
     list-style-type: none;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
 }
 header ul li {
-    padding: 10px 50px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 1px;
 }
 header ul li a {
     color: black;
+    text-decoration: none;
+    white-space: nowrap;
 }
 main {
-    padding: 20px;
     background-color: #F5F5F5;
 }
+section {
+    padding: 0 20px;
+}
+.top-section {
+    padding: 0;
+    background-color: #E2E2E2;
+}
+h1 {
+    margin-left: 20px;
+}
+
 footer {
     padding: 20px;
     display: flex;
     justify-content: space-between;
     background-color: #3D550C;
+    color: #F5F5F5;
 }
 footer a {
-    display: flex;
-    color: black;
+    color: #F5F5F5;
 }
 .gitHub-link {
     display: flex;
