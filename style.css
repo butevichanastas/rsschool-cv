@@ -44,10 +44,13 @@ footer {
     background-color: #3D550C;
     color: #F5F5F5;
 }
-footer a {
+.gitHub-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     color: #F5F5F5;
 }
-.gitHub-link {
+footer p {
     display: flex;
     align-items: center;
 }
