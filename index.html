@@ -1,11 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-</body>
+    <title>Anastasiya Butevich</title>
+    <link type="text/css" rel="stylesheet" href="reset.css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="index.html#aboutMe">About Me</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#codeExample">Code example</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#education">Education</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="top-section">
+        <p><img src="image/Photo.jpg" alt="My photo"></p>
+        <h1>Anastasiya Butevich</h1>
+      </section>
+      <section>
+      <h2 id="contact">Contact</h2>
+      <ul>
+        <li>Location: Minsk, Belarus</li>
+        <li>Phone: +375 29 350-86-56</li>
+        <li>Email: butevichanastas@gmail.com</li>
+        <li>GitHub: butevichanastas</li>
+      </ul>
+    </section>
+    <section>
+      <h2 id="aboutMe">About Me</h2>
+      <p>
+        I'm 32 years. I don't know what I want to be when I grow up. I decided
+        to try Front-end development. Suddenly it will...
+      </p>
+    </section>
+    <section>
+      <h2 id="skills">Skills</h2>
+      <ul>
+        <li>Basic knowledge of HTML and CSS only</li>
+        <li>English - Elementary. Studying on the Lingualeo platform</li>
+      </ul>
+    </section>
+    <section>
+      <h2 id="codeExample">Code example</h2>
+      <pre>
+      <code>
+        print("Система расчёта штрафов")
+      
+        car_speed = 147
+        is_town = True
+
+        fine_for_20_to_40 = 500
+        fine_for_40_to_60 = 1000
+        fine_for_60_to_80 = 2000
+        fine_for_80_and_more = 5000
+        
+        town_speed = 60
+        country_speed = 90
+
+        if is_town:
+        over_speed = car_speed - town_speed
+        else:
+        over_speed = car_speed - country_speed
+        if over_speed &lt; 20:
+        print("Скорость не превышена или превышена незначительно")
+
+        elif over_speed >= 20 and over_speed &lt; 40:
+        print("Штраф: " + str(fine_for_20_to_40))
+        elif over_speed >= 40 and over_speed &lt; 60:
+        print("Штраф: " + str(fine_for_40_to_60))
+        elif over_speed >= 60 and over_speed &lt; 80:
+        print("Штраф: " + str(fine_for_60_to_80))
+        elif over_speed >= 80:
+        print("Штраф: " + str(fine_for_80_and_more))
+      </code>
+      </pre>
+    </section>
+    <section>
+      <h2 id="projects">Projects</h2>
+      <p>No projects yet...</p>
+    </section>
+    <section>
+      <h2 id="education">Education</h2>
+      <p>
+        Academy of Public Administration under the President of the Republic of
+        Belarus
+      </p>
+    </section>
+    </main>
+    <footer>
+      <a href="https://github.com/butevichanastas" target="_blank" class="gitHub-link">
+        <img src="image/GitHub1.png" alt="link to my GitHub"><span>My GitHub</span>
+      </a>
+      <p>2022</p>
+      <a href="https://rs.school/js/" target="_blank"><img src="image/RSS1.png" alt="RS School"></a>
+    </footer>
+  </body>
 </html>

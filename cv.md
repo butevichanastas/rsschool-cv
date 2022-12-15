@@ -1,5 +1,5 @@
 # Anastasiya Butevich
-## Contacts
+## Contact
 * **Location:** Minsk, Belarus
 * **Phone:** +375 29 350-86-56
 * **Email:** butevichanastas@gmail.com
