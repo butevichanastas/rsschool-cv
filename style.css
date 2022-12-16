@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-    font: normal Verdana, Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -36,13 +38,19 @@ section {
 h1 {
     margin-left: 20px;
 }
-
+pre {
+    overflow: scroll;
+}
+.contact {
+    font-style: italic;
+}
 footer {
     padding: 20px;
     display: flex;
     justify-content: space-between;
     background-color: #3D550C;
     color: #F5F5F5;
+    margin-top: 20px;
 }
 .gitHub-link {
     display: flex;
@@ -53,4 +61,13 @@ footer {
 footer p {
     display: flex;
     align-items: center;
+}
+section {
+    padding-top: 20px;
+}
+@media (max-width: 767px) {
+    body {margin: 0;}
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+    body {margin: 0 10%;}
 }
