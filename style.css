@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
 body {
-    font: normal Verdana, Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 20%;
     margin-right: 20%;
 }
 header {
-    padding: 10px 20px;
-    background-color: #9ACD32;   
+    padding: 20px 20px;
+    background-color: #9ACD32;
+    font-size: 18px;
 }
 header ul {
     display: flex;
@@ -17,6 +23,11 @@ header ul {
 header ul li {
     border-bottom: 1px solid #000;
     padding-bottom: 1px;
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+header ul li:hover {
+    opacity: 1;
 }
 header ul li a {
     color: black;
@@ -27,7 +38,10 @@ main {
     background-color: #F5F5F5;
 }
 section {
-    padding: 0 20px;
+    padding: 10px 20px;
+}
+section:nth-child(odd) {
+    background-color: #E2E2E2;
 }
 .top-section {
     padding: 0;
@@ -36,7 +50,13 @@ section {
 h1 {
     margin-left: 20px;
 }
-
+pre {
+    overflow: scroll;
+}
+pre::-webkit-scrollbar { width: 0; }
+.contact {
+    font-style: italic;
+}
 footer {
     padding: 20px;
     display: flex;
@@ -53,4 +73,10 @@ footer {
 footer p {
     display: flex;
     align-items: center;
+}
+@media (max-width: 767px) {
+    body {margin: 0;}
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+    body {margin: 0 10%;}
 }
