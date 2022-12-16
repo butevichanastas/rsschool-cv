@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Roboto', sans-serif;
     margin-left: 20%;
     margin-right: 20%;
 }
 header {
-    padding: 10px 20px;
-    background-color: #9ACD32;   
+    padding: 20px 20px;
+    background-color: #9ACD32;
+    font-size: 18px;
 }
 header ul {
     display: flex;
@@ -19,6 +23,11 @@ header ul {
 header ul li {
     border-bottom: 1px solid #000;
     padding-bottom: 1px;
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+header ul li:hover {
+    opacity: 1;
 }
 header ul li a {
     color: black;
@@ -29,7 +38,10 @@ main {
     background-color: #F5F5F5;
 }
 section {
-    padding: 0 20px;
+    padding: 10px 20px;
+}
+section:nth-child(odd) {
+    background-color: #E2E2E2;
 }
 .top-section {
     padding: 0;
@@ -41,6 +53,7 @@ h1 {
 pre {
     overflow: scroll;
 }
+pre::-webkit-scrollbar { width: 0; }
 .contact {
     font-style: italic;
 }
@@ -50,7 +63,6 @@ footer {
     justify-content: space-between;
     background-color: #3D550C;
     color: #F5F5F5;
-    margin-top: 20px;
 }
 .gitHub-link {
     display: flex;
@@ -61,9 +73,6 @@ footer {
 footer p {
     display: flex;
     align-items: center;
-}
-section {
-    padding-top: 20px;
 }
 @media (max-width: 767px) {
     body {margin: 0;}
