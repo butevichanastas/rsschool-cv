@@ -57,6 +57,9 @@ pre::-webkit-scrollbar { width: 0; }
 .contact {
     font-style: italic;
 }
+.link-project {
+    color: black;
+}
 footer {
     padding: 20px;
     display: flex;
