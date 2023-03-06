@@ -12,7 +12,7 @@
     <header>
       <nav>
         <ul>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="index.html#contacts">Contacts</a></li>
           <li><a href="index.html#aboutMe">About Me</a></li>
           <li><a href="index.html#skills">Skills</a></li>
           <li><a href="index.html#codeExample">Code example</a></li>
@@ -27,13 +27,13 @@
         <h1>Anastasiya Butevich</h1>
       </section>
       <section>
-      <h2 id="contact">Contact</h2>
+      <h2 id="contacts">Contacts</h2>
       <ul>
-        <li>Location:<span class="contact"> Minsk, Belarus</span></li>
-        <li>Phone:<span class="contact"> +375 29 350-86-56</span></li>
-        <li>Email:<span class="contact"> butevichanastas@gmail.com</span></li>
-        <li>GitHub:<span class="contact"> butevichanastas</span></li>
-        <li>Discord:<span class="contact"> Anastasiya Butevich#6533</span></li>
+        <li>Location:<span class="contacts"> Minsk, Belarus</span></li>
+        <li>Phone:<span class="contacts"> +375 29 350-86-56</span></li>
+        <li>Email:<span class="contacts"> butevichanastas@gmail.com</span></li>
+        <li>GitHub:<span class="contacts"> butevichanastas</span></li>
+        <li>Discord:<span class="contacts"> Anastasiya Butevich#6533</span></li>
       </ul>
     </section>
     <section>
@@ -54,40 +54,29 @@
       <h2 id="codeExample">Code example</h2>
       <pre>
       <code>
-        print("Система расчёта штрафов")
-      
-        car_speed = 147
-        is_town = True
+        function nicknameGenerator(name){
+          if (name.length <= 3) {
+            return 'Error: Name too short'
+          }
 
-        fine_for_20_to_40 = 500
-        fine_for_40_to_60 = 1000
-        fine_for_60_to_80 = 2000
-        fine_for_80_and_more = 5000
-        
-        town_speed = 60
-        country_speed = 90
-
-        if is_town:
-        over_speed = car_speed - town_speed
-        else:
-        over_speed = car_speed - country_speed
-        if over_speed &lt; 20:
-        print("Скорость не превышена или превышена незначительно")
-
-        elif over_speed >= 20 and over_speed &lt; 40:
-        print("Штраф: " + str(fine_for_20_to_40))
-        elif over_speed >= 40 and over_speed &lt; 60:
-        print("Штраф: " + str(fine_for_40_to_60))
-        elif over_speed >= 60 and over_speed &lt; 80:
-        print("Штраф: " + str(fine_for_60_to_80))
-        elif over_speed >= 80:
-        print("Штраф: " + str(fine_for_80_and_more))
+          const thirdLetter = name[2]
+          const vowels = 'aeiou'.split('')
+          
+          if (vowels.includes(thirdLetter)) {
+            return name.slice(0, 4) ;
+          }
+          
+          return name.slice(0, 3)
+          }
       </code>
       </pre>
     </section>
     <section>
       <h2 id="projects">Projects</h2>
-      <a href="https://butevichanastas.github.io/rsschool-cv/" target="_blank" class="link-project">https://butevichanastas.github.io/rsschool-cv/</a>
+      <ul>
+      <li><a href="https://relaxed-unicorn-eb3953.netlify.app/" target="_blank" class="link-project">Momentum</a></li>
+      <li><a href="https://rolling-scopes-school.github.io/butevichanastas-JSFEPRESCHOOL2022Q4/plants/" target="_blank" class="link-project">Plants</a></li>
+    </ul>
     </section>
     <section>
       <h2 id="education">Education</h2>
@@ -101,7 +90,7 @@
       <a href="https://github.com/butevichanastas" target="_blank" class="gitHub-link">
         <img src="image/GitHub1.png" alt="link to my GitHub"><span>My GitHub</span>
       </a>
-      <p>2022</p>
+      <p>2023</p>
       <a href="https://rs.school/js/" target="_blank"><img src="image/RSS1.png" alt="RS School"></a>
     </footer>
   </body>
