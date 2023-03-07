@@ -58,14 +58,11 @@
           if (name.length &amp;&lt; 3) {
             return 'Error: Name too short'
           }
-
           const thirdLetter = name[2]
           const vowels = 'aeiou'.split('')
-          
           if (vowels.includes(thirdLetter)) {
-            return name.slice(0, 4) ;
+            return name.slice(0, 4);
           }
-          
           return name.slice(0, 3)
           }
       </code>
