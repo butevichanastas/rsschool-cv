@@ -41,10 +41,10 @@ elif over_speed >= 80:
   print("Штраф: " + str(fine_for_80_and_more))
 ```
 ## Work experience
-1. [https://rolling-scopes-school.github.io/butevichanastas-JSFE2023Q1/shelter/]
-2. [https://butevichanastas.github.io/cssBayan/]
-3. [https://relaxed-unicorn-eb3953.netlify.app/]
-4. [https://rolling-scopes-school.github.io/butevichanastas-JSFEPRESCHOOL2022Q4/plants/]
+1. https://rolling-scopes-school.github.io/butevichanastas-JSFE2023Q1/shelter/
+2. [cssBayan](https://butevichanastas.github.io/cssBayan/)
+3. https://relaxed-unicorn-eb3953.netlify.app/
+4. (https://rolling-scopes-school.github.io/butevichanastas-JSFEPRESCHOOL2022Q4/plants/)
 ## Education
 Academy of Public Administration under the President of the Republic of Belarus
 ## English
