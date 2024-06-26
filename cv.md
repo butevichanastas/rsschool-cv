@@ -21,7 +21,6 @@ function unluckyDays(year) {
     }
     return days;                            
 }
-
 ```
 
 ## Work experience
