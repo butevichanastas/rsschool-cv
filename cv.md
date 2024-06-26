@@ -17,18 +17,19 @@ function unluckyDays(year) {
         let dayOfTheWeek = new Date(year, month, 13);
         if(dayOfTheWeek.getDay() === 5){
           days++;
-     
        }
     }
     return days;                            
 }
+
 ```
+
 ## Work experience
-1. [shelter] (https://rolling-scopes-school.github.io/butevichanastas-JSFE2023Q1/shelter/)
-2. [cssBayan] (https://butevichanastas.github.io/cssBayan/)
-3. [momentum] (https://relaxed-unicorn-eb3953.netlify.app/)
-4. [plants] (https://rolling-scopes-school.github.io/butevichanastas-JSFEPRESCHOOL2022Q4/plants/)
-5. [library] (https://rolling-scopes-school.github.io/butevichanastas-JSFEPRESCHOOL2023Q2/library/)
+1. [shelter](https://rolling-scopes-school.github.io/butevichanastas-JSFE2023Q1/shelter/)
+2. [cssBayan](https://butevichanastas.github.io/cssBayan/)
+3. [momentum](https://relaxed-unicorn-eb3953.netlify.app/)
+4. [plants](https://rolling-scopes-school.github.io/butevichanastas-JSFEPRESCHOOL2022Q4/plants/)
+5. [library](https://rolling-scopes-school.github.io/butevichanastas-JSFEPRESCHOOL2023Q2/library/)
 
 ## Education
 Academy of Public Administration under the President of the Republic of Belarus
