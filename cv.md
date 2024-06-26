@@ -4,7 +4,7 @@
 * **Phone:** +375 29 350-86-56
 * **Email:** butevichanastas@gmail.com
 * **GitHub:** butevichanastas
-* **Discord:** @anastasiyarabinkina
+* **Discord:** anastasiyarabinkina
 ## About Me
 I'm 34 years. This is my third attempt at RS Shool.
 ## Skills
@@ -29,6 +29,7 @@ function unluckyDays(year) {
 3. [momentum] (https://relaxed-unicorn-eb3953.netlify.app/)
 4. [plants] (https://rolling-scopes-school.github.io/butevichanastas-JSFEPRESCHOOL2022Q4/plants/)
 5. [library] (https://rolling-scopes-school.github.io/butevichanastas-JSFEPRESCHOOL2023Q2/library/)
+
 ## Education
 Academy of Public Administration under the President of the Republic of Belarus
 ## English
