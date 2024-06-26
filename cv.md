@@ -1,12 +1,12 @@
-# Anastasiya Butevich
+# Anastasiya Rabinkina
 ## Contact
 * **Location:** Minsk, Belarus
 * **Phone:** +375 29 350-86-56
 * **Email:** butevichanastas@gmail.com
 * **GitHub:** butevichanastas
+* **Discord:** @anastasiyarabinkina
 ## About Me
-I'm 32 years. I don't know what I want to be when I grow up.
-I decided to try Front-end development. Suddenly it will...
+I'm 34 years. This is my third attempt at RS Shool.
 ## Skills
 Basic knowledge of HTML and CSS only
 ## Code example
@@ -41,7 +41,10 @@ elif over_speed >= 80:
   print("Штраф: " + str(fine_for_80_and_more))
 ```
 ## Work experience
-Not yet...
+1. [https://rolling-scopes-school.github.io/butevichanastas-JSFE2023Q1/shelter/]
+2. [https://butevichanastas.github.io/cssBayan/]
+3. [https://relaxed-unicorn-eb3953.netlify.app/]
+4. [https://rolling-scopes-school.github.io/butevichanastas-JSFEPRESCHOOL2022Q4/plants/]
 ## Education
 Academy of Public Administration under the President of the Republic of Belarus
 ## English
